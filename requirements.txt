@@ -1,0 +1,4 @@
+praw
+requests
+schedule
+python-dotenv
