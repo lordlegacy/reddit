@@ -63,8 +63,8 @@ python3 main.py
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/reddit-image-downloader.git
-cd reddit-image-downloader
+git clone https://github.com/lordlegacy/reddit.git
+cd reddit
 ```
 
 #### 2. Build the Docker Image
