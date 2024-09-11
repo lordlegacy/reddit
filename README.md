@@ -20,8 +20,8 @@ This is a simple bot that downloads images from new posts in a specified subredd
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/reddit-image-downloader.git
-cd reddit-image-downloader
+git clone https://github.com/lordlegacy/reddit.git
+cd reddit
 ```
 
 #### 2. Set Up Configuration
@@ -70,13 +70,13 @@ cd reddit-image-downloader
 #### 2. Build the Docker Image
 
 ```bash
-docker build -t reddit-image-downloader .
+docker build -t reddit
 ```
 
 #### 3. Run the Docker Container
 
 ```bash
-docker run -e CLIENT_ID=your_client_id -e CLIENT_SECRET=your_client_secret -e USER_AGENT=your_user_agent -v $(pwd)/posts:/app/posts reddit-image-downloader
+docker run -e CLIENT_ID=your_client_id -e CLIENT_SECRET=your_client_secret -e USER_AGENT=your_user_agent -v $(pwd)/posts:/app/posts reddit
 ```
 
 Replace `your_client_id`, `your_client_secret`, and `your_user_agent` with your actual Reddit API credentials.
